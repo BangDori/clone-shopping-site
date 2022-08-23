@@ -1,0 +1,36 @@
+.gnbNav{
+  font-size: 1.2rem;
+}
+
+.gnbNavList{
+  display: flex;
+  padding: 0;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.lnbNav1{
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.lnbNav2{
+  padding: 15px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lnbNav2box{
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.3);
+}

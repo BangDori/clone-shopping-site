@@ -1,0 +1,90 @@
+.title{
+  position: relative;
+  padding: 5px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  top: 50px;
+}
+
+.newcontent{
+  position: relative;
+  padding: 15px;
+  column-count: 4;
+  column-gap: 30px;
+  top: 75px;
+}
+
+.item{
+  height: auto;
+  font-size: 20px;
+}
+
+.itemtitle{
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  right: 0;
+}
+
+.itemimg{
+  position: relative;
+}
+
+.itemex{
+  margin-top: 15px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* 라인수 */
+  -webkit-box-orient: vertical;
+  word-wrap:break-word;
+  line-height: 1.2em;
+  height: 4.8em;
+}
+
+.item>p{
+  text-align: right;
+  width: 23vw;
+}
+
+.selectbutton{
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+}
+
+.selectbutton>button{
+  border: none;
+  color: gray;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.selectbutton>button:focus{
+  color: black;
+  font-weight: bold;
+}
+
+.allcontent{
+  position: relative;
+  padding: 15px;
+  column-count: 5;
+  column-gap: 30px;
+  top: 75px;
+  height: auto;
+}
+
+.allitem{
+  display:inline;
+  position: relative;
+  font-size: 14px;
+}
+
+.allitem>a>img{
+  position: relative;
+  width: 17vw;
+}

@@ -1,0 +1,75 @@
+footer{
+  margin-top: 80px;
+}
+
+.ffirst{
+  position: relative;
+  padding: 15px;
+  margin: 15px;
+  border-top: 1px solid gray;
+}
+
+.ffirstinfo{
+  font-size: 14px;
+}
+
+.ffirstinfoa{
+  color: gray;
+}
+
+.ffirstinfoa>button{
+  font-size: 12px;
+  margin: 0;
+  padding: 1px;
+}
+
+.ffirstinfob{
+  color: black;
+  font-weight: bold;
+}
+
+.fsecond{
+  display: flex;
+  margin-top: 30px;
+  font-size: 13px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fthird{
+  margin-top: 46px;
+  color: gray !important;
+  font-size: 13px !important;
+  height: auto;
+}
+
+.fthird1, .fthird2, .fthird3{
+  display: inline-block;
+  vertical-align:top;
+}
+
+.fthird1{
+  width: 40%;
+}
+
+.fthird2{
+  width: 25%;
+}
+
+.fthird2>a, .fthird3>a{
+  color: gray;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.ffourth{
+  margin-top: 27px;
+  font-size: 13px;
+  color: gray;
+}
+
+.ffifth{
+  margin-top: 25px;
+  font-size: 13px;
+  color: gray;
+}

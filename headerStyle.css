@@ -71,6 +71,7 @@ body{
   position: relative;
   padding: 15px;
   margin: 15px;
+  border-bottom: 1px solid gray;
 }
 
 .bleft{
@@ -99,18 +100,6 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.headbar{
-  font-size: 1.2rem;
-}
-
-.headbarfont{
-  display: flex;
-  padding: 0;
-  list-style: none;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
 a{
